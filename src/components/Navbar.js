@@ -31,8 +31,8 @@ export default function Navbar(props) {
 
                     {/* Search Box */}
                     <div className="d-flex mx-3">
-                    <input className="form-control me-2" type="search" id = "clr" placeholder="Search" aria-label="Search" />
-                    <button className= {`btn btn-outline-${props.mode === "primary" ? "dark" : "primary"}`} onClick = {changeColor} >Search</button>
+                    <input className="form-control me-2" type="search" id = "clr" placeholder="Enter Color" aria-label="Search" />
+                    <button className= {`btn btn-outline-${props.mode === "primary" ? "dark" : "primary"}`} onClick = {changeColor} >Change Color</button>
                     </div>
 
                     {/* Dark Mode Switch */}
